@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Home
-description: Sam Swanke is a computer science student as well as a web and software developer. He is currently attending college at the University of Vermont.
+description: Justin Dunn Description
 permalink: /
 ---
 
