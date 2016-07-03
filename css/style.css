@@ -128,19 +128,15 @@ form {
 
 header {
     padding: 3em 0;
-    background-image:
-        linear-gradient(
-          #E6E6E6, white
-        );
+    background-image: linear-gradient( rgba(71, 196, 255, 0.52), white );
 }
 
 header h1 {
     margin: 0;
     font-weight: normal;
-    text-transform: uppercase;
-    letter-spacing: .1em;
     font-size: 3em;
     padding: 0;
+    font-family: cursive;
 }
 
 nav li {
@@ -150,7 +146,7 @@ nav li {
 
 nav li.active {
     color: white;
-    background-color: #3E3E3E;
+    background-color: rgb(5, 82, 179);
 }
 
 .mistake {
@@ -162,8 +158,7 @@ footer hr {
 }
 
 header {
-    text-align: center;
-    font-family: Georgia, Times, "Times New Roman", serif;
+    font-family: cursive;
 }
 
 nav {
@@ -174,6 +169,7 @@ nav {
     border-top: 1px solid grey;
     border-bottom: 1px solid grey;
     margin-bottom: 10px;
+    background-color: rgba(234, 89, 102, .9);
 }
 
 footer {
@@ -228,7 +224,7 @@ ul.exp h4 {
     border-top: 0;
     margin-bottom: 50px;
     width: 100%;
-    background-color: rgba(255,255,255,0.9);
+    background-color: rgba(234, 89, 102, .9);
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 
