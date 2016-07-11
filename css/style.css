@@ -301,6 +301,10 @@ ul.exp h4 {
     font-style:italic;
 }
 
+img.xa {
+    float: right;
+}
+
 input[type="email"] input:valid{
     border: 3px solid green;
 }
