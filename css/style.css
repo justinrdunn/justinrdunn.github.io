@@ -27,6 +27,7 @@ h3 {
 
 header h1 {
     padding: 0.8em 5.33333333%;  
+    float: left;
 }
 
 nav ol {
