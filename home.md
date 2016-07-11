@@ -9,8 +9,8 @@ permalink: /
 <hr>
 </div>
 <div id="index">
-<div class="col-md-6 bg-danger"></div>
-<div class="col-md-6 bg-default"></div>
-<div class="col-md-6"></div>
-<div class="col-md-6"></div>
+<div class="col-md-6 bg-danger card1"></div>
+<div class="col-md-6 bg-default card2"></div>
+<div class="col-md-6 card3"></div>
+<div class="col-md-6 card4"></div>
 </div>
