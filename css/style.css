@@ -42,6 +42,10 @@ nav ol li{
     padding: 14.5px;
 }
 
+.navbar-nav {
+    float: right;
+}
+
 aside {
     margin: 0 auto;
     width: 69.7885196%; 
