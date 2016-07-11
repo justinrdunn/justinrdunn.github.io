@@ -6,16 +6,46 @@
 </header>
 <div class="nav-wrap">
   <div class="nav-anchor"></div>
-  <nav>
+    <nav class="navbar navbar-inverse">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/"><img src="{{ site.url }}/images/xa.png" class="logo">Justin Dunn</a>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li class="dropdown{% if page.url == '/about/' or page.url == '/people/' %} active{% endif %}">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" onclick="return;">CMIT Internship</a>
+            <ul class="dropdown-menu">
+              <li><a href="/about/">About</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="/Giving/">Giving</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="/Giving/">Worship Team</a></li>
+            </ul>
+          </li>
+          <li{% if page.url == '/contact/' %} class="active"{% endif %}><a href="/contact/">Contact</a></li>
+          <li{% if page.url == '/blog/' %} class="active"{% elsif page.activetab == "blog" %} class="active"{% endif %}><a href="/blog/">Blog</a></li>
+          <li{% if page.url == '/donate/' %} class="active"{% endif %}><a href="/donate/" id="donate">Donate</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </nav>
+  <!--<nav>
       <ol>
         <li{% if page.url == '/' %} class="active">Home</li>{% else %}><a href="/">Home</a></li>{% endif %}
         <li{% if page.url == '/cmit/' %} class="active">CMIT Internship</li>{% else %}><a href="/cmit/">CMIT Internship</a></li>{% endif %}
-        <!-- Drop down items for cmit: About, Blog, Giving, Worship Team -->
+        <!-- Drop down items for cmit: About, Blog, Giving, Worship Team 
         <li{% if page.url == '/cityreach/' %} class="active">City Reach</li>{% else %}><a href="/cityreach/">City Reach</a></li>{% endif %}
         <li{% if page.url == '/live/' %} class="active">Live Perfomance</li>{% else %}><a href="/live/">Live Perfomance</a></li>{% endif %}
-        <!-- Drop Down for live: The renegade grove, Hot Box Honey, Local  -->
+        <!-- Drop Down for live: The renegade grove, Hot Box Honey, Local  
         <li{% if page.url == '/blog/' %} class="active">Blog</li>{% else %}><a href="/blog/">Blog</a></li>{% endif %}
         <li{% if page.url == '/contact/' %} class="active">Contact</li>{% else %}><a href="/contact/">Contact</a></li>{% endif %}
     </ol>
-  </nav>
+  </nav>-->
 </div>
