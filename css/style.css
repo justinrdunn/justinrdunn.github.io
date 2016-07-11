@@ -305,6 +305,14 @@ img.xa {
     float: right;
 }
 
+.headerimage {
+    width: 50%;
+}
+
+.headertext {
+    width: 50%;
+}
+
 input[type="email"] input:valid{
     border: 3px solid green;
 }
