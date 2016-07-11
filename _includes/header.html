@@ -9,10 +9,13 @@
   <nav>
       <ol>
         <li{% if page.url == '/' %} class="active">Home</li>{% else %}><a href="/">Home</a></li>{% endif %}
-        <li{% if page.url == '/projects/' %} class="active">Projects</li>{% else %}><a href="/projects/">Projects</a></li>{% endif %}
-        <li{% if page.url == '/experience/' %} class="active">Experience</li>{% else %}><a href="/experience/">Experience</a></li>{% endif %}
-        <li{% if page.url == '/coursework/' %} class="active">Course Work</li>{% else %}><a href="/coursework/">Course Work</a></li>{% endif %}
+        <li{% if page.url == '/cmit/' %} class="active">CMIT Internship</li>{% else %}><a href="/cmit/">CMIT Internship</a></li>{% endif %}
+        <!-- Drop down items for cmit: About, Blog, Giving, Worship Team -->
+        <li{% if page.url == '/cityreach/' %} class="active">City Reach</li>{% else %}><a href="/cityreach/">City Reach</a></li>{% endif %}
+        <li{% if page.url == '/live/' %} class="active">Live Perfomance</li>{% else %}><a href="/live/">Live Perfomance</a></li>{% endif %}
+        <!-- Drop Down for live: The renegade grove, Hot Box Honey, Local  -->
         <li{% if page.url == '/contact/' %} class="active">Contact</li>{% else %}><a href="/contact/">Contact</a></li>{% endif %}
+        <!-- 
     </ol>
   </nav>
 </div>
