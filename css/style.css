@@ -46,6 +46,12 @@ nav ol li{
     float: right;
 }
 
+img.logo {
+    width: 40px;
+    margin: -15px 3px -10px 0;
+    display: inline-block;
+}
+
 aside {
     margin: 0 auto;
     width: 69.7885196%; 
