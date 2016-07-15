@@ -169,17 +169,6 @@ header {
     font-family: cursive;
 }
 
-nav {
-    display: flex;
-    height: 50px;
-    overflow: hidden;
-    justify-content: center;
-    border-top: 1px solid grey;
-    border-bottom: 1px solid grey;
-    margin-bottom: 10px;
-    background-color: rgba(219, 174, 51, 0.79);
-}
-
 footer {
     border-top: 1px solid grey;
     margin-top: 10px;
@@ -219,20 +208,6 @@ ul.exp p {
 
 ul.exp h4 {
     margin-bottom: .5em;
-}
-
-.fixed {
-    position: fixed;
-    top: 0;
-    height: 50px;
-    left: 50%;
-    z-index: 1000;
-    transform: translate(-50%,0);
-    -webkit-transform: translate(-50%,0);
-    border-top: 0;
-    margin-bottom: 50px;
-    width: 100%;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 
 #coursework ul, #projects ul {
@@ -394,6 +369,31 @@ div.spacer {
 
 /* Nav Dropdown begin */
 @media screen and (min-width: 767px) {
+    nav {
+        display: flex;
+        height: 50px;
+        overflow: hidden;
+        justify-content: center;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        margin-bottom: 10px;
+        background-color: rgba(219, 174, 51, 0.79);
+    }
+
+    .fixed {
+        position: fixed;
+        top: 0;
+        height: 50px;
+        left: 50%;
+        z-index: 1000;
+        transform: translate(-50%,0);
+        -webkit-transform: translate(-50%,0);
+        border-top: 0;
+        margin-bottom: 50px;
+        width: 100%;
+        box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+    
     .navbar-nav {
       float: right;
     }
