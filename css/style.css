@@ -361,8 +361,33 @@ div.spacer {
     background-image: url('https://justinrdunn.github.io/images/xabg.jpg');
 }
 
+@media only screen and (max-width : 768px) {
+    .sqaure {
+        width: 46%;
+        padding-bottom: 46%;
+    }
+    div#navbar {
+        background-color: #222222;
+    }
+}
+
 nav.navbar.navbar-inverse {
     z-index: 1000;
+}
+
+
+.fixed {
+    position: fixed;
+    top: 0;
+    height: 50px;
+    left: 50%;
+    z-index: 1000;
+    transform: translate(-50%,0);
+    -webkit-transform: translate(-50%,0);
+    border-top: 0;
+    margin-bottom: 50px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 
 @media only screen and (max-width : 522px) {
@@ -382,20 +407,6 @@ nav.navbar.navbar-inverse {
         border-bottom: 1px solid grey;
         margin-bottom: 10px;
         background-color: rgba(219, 174, 51, 0.79);
-    }
-
-    .fixed {
-        position: fixed;
-        top: 0;
-        height: 50px;
-        left: 50%;
-        z-index: 1000;
-        transform: translate(-50%,0);
-        -webkit-transform: translate(-50%,0);
-        border-top: 0;
-        margin-bottom: 50px;
-        width: 100%;
-        box-shadow: 0 0 10px rgba(0,0,0,0.3);
     }
     
     .navbar-nav {
