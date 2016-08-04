@@ -351,6 +351,8 @@ div.spacer {
 
 .img2{
     background-image: url('https://justinrdunn.github.io/images/cityreach.png');
+    background-size: contain;
+    background-color: rgba(30, 30, 30, 0.45);
 }
 
 .img3{
