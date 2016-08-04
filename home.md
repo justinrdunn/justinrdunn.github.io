@@ -13,6 +13,7 @@ permalink: /
       <div class="content">
            <div class="table">
                <div class="table-cell">
+                  <h1>Justin Dunn</h1>
                </div>
            </div>
        </div>
@@ -21,7 +22,6 @@ permalink: /
       <div class="content">
            <div class="table">
                <div class="table-cell">
-                   Justin Dunn
                </div>
            </div>
        </div>
@@ -30,6 +30,7 @@ permalink: /
       <div class="content">
            <div class="table">
                <div class="table-cell">
+               <h1>Music</h1>
                </div>
            </div>
        </div>
@@ -38,7 +39,6 @@ permalink: /
       <div class="content">
            <div class="table">
                <div class="table-cell">
-                   Music
                </div>
            </div>
        </div>
