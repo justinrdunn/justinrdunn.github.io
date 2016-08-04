@@ -24,14 +24,13 @@
             <ul class="dropdown-menu">
               <li><a href="/about/">About</a></li>
               <li role="separator" class="divider"></li>
-              <li><a href="/Giving/">Giving</a></li>
+              <li><a href="/giving/">Giving</a></li>
               <li role="separator" class="divider"></li>
               <li><a href="/Giving/">Worship Team</a></li>
             </ul>
           </li>
           <li{% if page.url == '/contact/' %} class="active"{% endif %}><a href="/contact/">Contact</a></li>
           <li{% if page.url == '/blog/' %} class="active"{% elsif page.activetab == "blog" %} class="active"{% endif %}><a href="/blog/">Blog</a></li>
-          <li{% if page.url == '/donate/' %} class="active"{% endif %}><a href="/donate/" id="donate">Donate</a></li>
         </ul>
       </div><!--/.nav-collapse -->
     </div>
