@@ -21,7 +21,7 @@ permalink: /
    <div class="content">
         <div class="table">
             <div class="table-cell">
-                Centered responsive images as background with centered content over it.
+                Justin Dunn
             </div>
         </div>
     </div>
@@ -30,7 +30,6 @@ permalink: /
    <div class="content">
         <div class="table">
             <div class="table-cell">
-                Centered responsive images as background with centered content over it.
             </div>
         </div>
     </div>
@@ -39,7 +38,7 @@ permalink: /
    <div class="content">
         <div class="table">
             <div class="table-cell">
-                Centered responsive images as background with centered content over it.
+                Music
             </div>
         </div>
     </div>
