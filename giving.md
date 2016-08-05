@@ -8,6 +8,9 @@ permalink: /giving/
 
 <p>If you would like to give, donations can be made online or by check!</p>
 
+![Chi Alpha Fall Retreat]({{ site.url }}/images/xagroupshot.jpg) 
+
+
 <div class="col-xs-6">
   <h2>Online (Preffered)</h2>
   This is a link directing you to my giving page on the Assemblies of God website.  
