@@ -414,12 +414,6 @@ nav.navbar.navbar-inverse {
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 
-@media only screen and (max-width : 522px) {
-    nav a {
-        font-size: 0.6em;
-    }
-}
-
 /* Nav Dropdown begin 
 @media screen and (min-width: 767px) {
     nav {
