@@ -4,10 +4,7 @@ title: Home
 description: Justin Dunn Description
 permalink: /
 ---
-<div class="col-md-12">
-<h1>Home</h1>
-<hr>
-</div>
+
 <div id="index">
    <div class="square bg img1">
       <div class="content">
