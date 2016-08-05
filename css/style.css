@@ -311,6 +311,11 @@ div.spacer {
     border: 3px solid red; !important
 }   
 
+button.donate {
+    background-color: #c9e6ff;
+}
+
+/* BEGIN HOME PAGE SQUARES */
 .square {
     float:left;
     position: relative;
@@ -373,6 +378,7 @@ div.spacer {
         background-color: #222222;
     }
 }
+/* END HOME PAGE SQUARES */
 
 nav.navbar.navbar-inverse {
     z-index: 1000;
