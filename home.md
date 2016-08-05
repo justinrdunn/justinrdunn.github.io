@@ -13,7 +13,6 @@ permalink: /
       <div class="content">
            <div class="table">
                <div class="table-cell">
-                  <h1>Justin Dunn</h1>
                </div>
            </div>
        </div>
