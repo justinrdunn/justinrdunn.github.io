@@ -319,6 +319,21 @@ a.donate:hover {
     background-color: #9ac3e6;
 }
 
+ul.blog {
+  max-width: 600px;
+  list-style: none;
+  margin: 0;
+}
+
+ul.blog h4 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+ul.blog li {
+  margin-bottom: 2em;
+}
+
 figure img {
   width: 100%;
   margin-bottom: 5px;
