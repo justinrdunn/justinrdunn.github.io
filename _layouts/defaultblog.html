@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="container" style="margin-top: 50px;">
+
+      <div class="nav-blog col-sm-3">
+        <div class="nav-docs-section">
+          <h3>Recent posts</h3>
+          <ul>
+            {% for post in site.posts limit:4 %}
+              <li>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+              </li>
+            {% endfor %}
+              <li><p><a href="{{ site.url }}/blog/">All Posts...</a></p></li>
+          </ul>
+        </div>
+      </div>
+      <div class="inner-content col-sm-9">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+    <script src="{{ site.url }}/bootstrap/jquery.min.js"></script>
+    <script src="{{ site.url }}/bootstrap/bootstrap.min.js"></script>
+  </body>
+
+</html>
