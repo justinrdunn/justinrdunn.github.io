@@ -315,6 +315,17 @@ button.donate {
     background-color: #c9e6ff;
 }
 
+figure img {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+figure {
+  text-align: center;
+  color: gray;
+  font-size: .9em;
+}
+
 /* BEGIN HOME PAGE SQUARES */
 .square {
     float:left;
