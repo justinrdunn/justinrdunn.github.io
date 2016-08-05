@@ -3,6 +3,7 @@ layout: post
 title:  "Title of Post"
 date:   2015-09-30 15:41:12 
 categories: jekyll update
+activetab: blog
 ---
 
 ^ leave that line empty
