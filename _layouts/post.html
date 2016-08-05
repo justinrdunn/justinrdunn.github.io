@@ -8,6 +8,7 @@ layout: defaultblog
   <div class="post-header header">
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if author %} • {{ author.name }} {% if author.email %}• <a href="{{ author.email }}">{{ author.email }}</a>{% endif %}{% if author.position %} • {{ author.position }}{% endif %}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    <hr>
   </div>
 
   <article class="post-content">
