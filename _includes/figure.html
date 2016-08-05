@@ -1,0 +1,4 @@
+<figure class="{% if include.size == 'full' %}col-sm-12{% elsif include.size == 'half' %}col-sm-6{% elsif include.size == 'third' %}col-sm-4{% elsif include.size == 'quarter' %}col-sm-3{% else %}col-sm-4{% endif %}{% if include.side %} {{ include.side }}{% endif %}">
+	<img src="{{ site.url }}/images/{{ include.src }}" alt="{% if include.alt %}{{ include.alt }}{% elsif include.caption %}{{ include.caption | strip_html }}{% endif %}">
+	<figcaption>{% if include.caption %}{{ include.caption }}{% endif %}</figcaption>
+</figure>
