@@ -323,6 +323,7 @@ ul.blog {
   max-width: 600px;
   list-style: none;
   margin: 0;
+  padding: 0;
 }
 
 ul.blog h4 {
