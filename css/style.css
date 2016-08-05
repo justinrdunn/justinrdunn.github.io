@@ -311,7 +311,7 @@ div.spacer {
     border: 3px solid red; !important
 }   
 
-button.donate {
+a.donate {
     background-color: #c9e6ff;
 }
 
