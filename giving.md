@@ -8,7 +8,7 @@ permalink: /giving/
 
 <p>If you would like to give, donations can be made online or by check!</p>
 
-{% include figure.html src='xagroupshot.jpg' caption='Chi Alpha Fall Retreat' size='full' %} 
+{% include figure.html src='xagroupshot.jpg' caption='Chi Alpha Fall Retreat' size='half' %} 
 
 <div class="col-xs-6">
   <h2>Online (Preffered)</h2>
