@@ -315,6 +315,10 @@ a.donate {
     background-color: #c9e6ff;
 }
 
+a.donate:hover {
+    background-color: #9ac3e6;
+}
+
 figure img {
   width: 100%;
   margin-bottom: 5px;
