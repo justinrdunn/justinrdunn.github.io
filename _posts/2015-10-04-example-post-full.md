@@ -54,14 +54,6 @@ Optionally you can include size= to make it fill full, half, quarter or third of
   1. too
   2. too
 
-this will put a paypal button on the page
-
-{% include paypalbutton.html %} 
-
-this will put a monthly donation button
-
-{% include paypalmonthlybutton.html %} 
-
 > this will render as a block quote
 > \- Albert Einstien *probably*
 
