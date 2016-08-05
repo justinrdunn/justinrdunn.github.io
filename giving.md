@@ -13,7 +13,7 @@ permalink: /giving/
 
 <div class="col-xs-6">
   <h2>Online (Preffered)</h2>
-  This is a link directing you to my giving page on the Assemblies of God website.
+  <p>This is a link directing you to my giving page on the Assemblies of God website.</p>
   <a class="donate btn btn-default btn-lg btn-block" href="http://s1.ag.org/justindunn">Donate</a>
 </div>
 <div class="col-xs-6">
