@@ -359,6 +359,9 @@ figure {
     margin:1.66%;
     background-color:#1E1E1E;
     overflow:hidden;
+    -webkit-box-shadow: 5px 5px 21px -4px rgba(0,0,0,0.46);
+    -moz-box-shadow: 5px 5px 21px -4px rgba(0,0,0,0.46);
+    box-shadow: 5px 5px 21px -4px rgba(0,0,0,0.46);
 }
 
 .content {
@@ -393,7 +396,7 @@ figure {
 .img2{
     background-image: url('https://justinrdunn.github.io/images/cityreach.png');
     background-size: contain;
-    background-color: rgba(30, 30, 30, 0.45);
+    background-color: rgba(30, 30, 30, 0.0);
 }
 
 .img3{
@@ -417,6 +420,7 @@ figure {
 
 nav.navbar.navbar-inverse {
     z-index: 1000;
+    border-radius: 0;
 }
 
 
