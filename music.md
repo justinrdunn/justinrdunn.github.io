@@ -13,7 +13,9 @@ headerlogo: renegade.png
     <a href="https://www.facebook.com/getdownwithTRG/">Our Facebook</a></p>
   </div>
 </div>
-<hr>
+<div class="col-sm-12">
+  <hr>
+</div>
 <div class="col-sm-12">
   <div class="col-sm-6">
     <img src="{{ site.url }}/images/hot.png" alt="Hot Box Honey" style="width:100%">
