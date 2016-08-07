@@ -2,14 +2,13 @@
 layout: page
 title: Giving
 permalink: /giving/
-headerimg: xagroupshot.jpg
 ---
 
 <p>Thanks for everyone who has given so far to the ministry and mission at the University of Vermont! Your support makes it possible for me to continue my work as an intern and change campus for Christ. One time gifts make it possible for me to take students out, host events, and have the resources to bless students.</p>
 
 <p>If you would like to give, donations can be made online or by check!</p>
 
-{% include figure.html src='xagroupshot.jpg' caption='Chi Alpha Fall Retreat' size='half' %} 
+{% include figure.html src='xagroupshotlr.jpg' caption='Chi Alpha Fall Retreat' size='half' %} 
 
 <div class="col-xs-6">
   <h2>Online (Preffered)</h2>
