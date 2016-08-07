@@ -146,6 +146,8 @@ header {
     padding: 3em 0;
     background-image: linear-gradient( #537339, rgba(114, 147, 86, 0.41) );
     min-height: 350px;
+    display:flex;
+    align-items:center;
 }
 
 nav li {
