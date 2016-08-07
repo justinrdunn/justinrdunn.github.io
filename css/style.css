@@ -37,6 +37,7 @@ header h1 {
 .headerxa {
     display: block;
     margin: auto;
+    max-width: 100%;
 }
 
 nav ol {
