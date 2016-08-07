@@ -450,6 +450,12 @@ nav.navbar.navbar-inverse {
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 
+@media screen and (min-width: 767px) {
+    .nav.navbar-nav {
+        float: right;
+    }
+}
+
 /* Nav Dropdown begin 
 @media screen and (min-width: 767px) {
     nav {
