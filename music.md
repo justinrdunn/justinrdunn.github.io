@@ -2,6 +2,7 @@
 layout: page
 title: Music
 permalink: /music/
+headerlogo: renegade.png
 ---
 <div class="col-sm-6">
 <img src="{{ site.url }}/images/Renegadegroove.png" alt="Renegade Groove">
