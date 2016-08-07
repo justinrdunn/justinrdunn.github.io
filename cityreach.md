@@ -5,7 +5,7 @@ permalink: /cityreach/
 ---
 
 <div class="col-sm-6">
-<img src="{{ site.url }}/images/cityreach.png" alt="City Reach Church">
+<img src="{{ site.url }}/images/cityreach.png" alt="City Reach Church" style="width:100%;">
 
 <a href="http://essexjunction.cityreachnetwork.org">City Reach's Official Website</a>
 
