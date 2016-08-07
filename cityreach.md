@@ -19,4 +19,4 @@ Essex, VT 05452
 </address>
 </div>
 
-{% include figure.html src="cityreachband.jpg" size="half" caption="The worship team at City Reach in Essex Junction" %}
+{% include figure.html src="cityreachbandlr.jpg" size="half" caption="The worship team at City Reach in Essex Junction" %}
