@@ -11,6 +11,7 @@ permalink: /
       <div class="content">
            <div class="table">
                <div class="table-cell">
+                  <h1>About</h1>
                </div>
            </div>
        </div>
@@ -21,6 +22,7 @@ permalink: /
       <div class="content">
            <div class="table">
                <div class="table-cell">
+                  <h1>City Reach</h1>
                </div>
            </div>
        </div>
