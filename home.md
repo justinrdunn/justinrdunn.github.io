@@ -6,7 +6,7 @@ permalink: /
 ---
 
 <div id="index">
-   <a href="/about/">
+   <a href="/aboutxa/">
    <div class="square bg img1">
       <div class="content">
            <div class="table">
@@ -31,17 +31,18 @@ permalink: /
       <div class="content">
            <div class="table">
                <div class="table-cell">
-               <h1>Music</h1>
+                  <h1>Music</h1>
                </div>
            </div>
        </div>
    </div>
    </a>
-   <a href="#">
+   <a href="/contact/">
    <div class="square bg img4">
       <div class="content">
            <div class="table">
                <div class="table-cell">
+                  <h1>Contact</h1>
                </div>
            </div>
        </div>
