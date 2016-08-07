@@ -2,6 +2,7 @@
 layout: page
 title: Giving
 permalink: /giving/
+headerimg: xagroupshot.jpg
 ---
 
 <p>Thanks for everyone who has given so far to the ministry and mission at the University of Vermont! Your support makes it possible for me to continue my work as an intern and change campus for Christ. One time gifts make it possible for me to take students out, host events, and have the resources to bless students.</p>
