@@ -420,7 +420,7 @@ figure {
 }
 
 @media screen and (max-width : 768px) {
-    .sqaure {
+    .square {
         width: 46%;
         padding-bottom: 46%;
     }
