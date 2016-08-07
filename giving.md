@@ -14,7 +14,7 @@ headerimg: xagroupshot.jpg
 <div class="col-xs-6">
   <h2>Online (Preffered)</h2>
   <p>This is a link directing you to my giving page on the Assemblies of God website.</p>
-  <a class="donate btn btn-default btn-lg btn-block" href="http://s1.ag.org/justindunn">Donate</a>
+  <a class="donate btn btn-default btn-lg btn-block" href="http://s1.ag.org/justindunn" target="_blank">Donate</a>
 </div>
 <div class="col-xs-6">
   <h2>Check</h2>
