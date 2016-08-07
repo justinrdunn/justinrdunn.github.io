@@ -4,7 +4,7 @@ title: Music
 permalink: /music/
 ---
 <div class="col-sm-6">
-<img src="renegade.png" alt="Renegade Groove">
+<img src="Renegadegroove.png" alt="Renegade Groove">
 <p>The Renegade Groove is a four piece funk-rock outfit with a high energy presence and an inclination for improvisation. For four members, the sound is huge. A booming low end rests in the steady pocket groove, while the solos and vocal melodies and harmonizations soar above, creating the catchy sound that is The Renegade Groove. Drummer Andy Gagnon's writing is uniquely funky, goofy, and accessible to men, women, and children of all ages. Check out The Renegade Groove for the full experience!</p>
 
 <p>Email: <a href="mailto:renegadegroove@gmail.com">renegadegroove@gmail.com</a><br>
