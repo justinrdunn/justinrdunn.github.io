@@ -9,6 +9,6 @@ On Sunday’s, I lead worship at CityReach church in Essex Junction Vermont. The
 Located in the same office park as Subway at:
 
 <address>
-159 Pearl Street
+159 Pearl Street<br>
 Essex, VT 05452
 </address>
