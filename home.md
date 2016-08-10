@@ -11,7 +11,7 @@ permalink: /
       <div class="content">
            <div class="table">
                <div class="table-cell">
-                  <h1>About</h1>
+                  <h1>Internship</h1>
                </div>
            </div>
        </div>
