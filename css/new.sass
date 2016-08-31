@@ -1,0 +1,244 @@
+---
+---
+/* Variables */
+$font-stack: Futura, "Trebuchet MS", Arial, sans-serif
+$font-header: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif
+$bg-color-top: #537339
+$bg-color-bottom: rgba(114, 147, 86, 0.41)
+
+/* Defaults */
+body
+    margin: 0 auto
+    width: 100%
+    font-family: $font-stack
+
+h1
+    font-size: 30px
+
+h3
+    font-size: 20px
+
+figure
+  text-align: center
+  color: gray
+  font-size: .9em
+  img
+    width: 100%
+    margin-bottom: 5px
+
+div.spacer
+    margin-top: 50px
+
+.right
+  float: right
+
+/* Header */
+header
+  padding: 3em 0
+  background-image: linear-gradient($bg-color-top, $bg-color-bottom)
+  min-height: 350px
+  display:flex
+  align-items:center
+  font-family: cursive
+  h1
+    padding: 0.8em 5.33333333%
+    font-family: $font-header
+    text-align: center
+    margin: 0
+    font-weight: normal
+    font-size: 3em
+
+.headerxa
+  display: block
+  margin: auto
+  max-width: 100%
+
+img.xa
+    float: right
+
+.headerimage
+    width: 50%
+
+.headertext
+    width: 50%
+
+/* Nav */
+nav 
+  ol
+    margin: 0
+    padding: 0
+  ol li
+    display: inline-block
+    list-style-type: none
+    padding: 14.5px
+  li
+    text-align: center
+    padding: 0
+  li.active
+    color: white
+    background-color: #974b29
+  a
+    text-decoration: none
+    color: black
+  a:hover
+    color: #FF4F4F
+
+img.logo
+  width: 40px
+  margin: -15px 3px -10px 0
+  display: inline-block
+
+nav.navbar.navbar-inverse
+  z-index: 1000
+  border-radius: 0
+
+.fixed
+  position: fixed
+  top: 0
+  height: 50px
+  left: 50%
+  z-index: 1000
+  transform: translate(-50%,0)
+  -webkit-transform: translate(-50%,0)
+  border-top: 0
+  margin-bottom: 50px
+  width: 100%
+  box-shadow: 0 0 10px rgba(0,0,0,0.3)
+
+.nav-wrap
+  height: 50px
+
+@media screen and (min-width: 767px)
+  .nav.navbar-nav
+    float: right
+
+/* Footer */
+footer
+  clear: both
+  border-top: 1px solid grey
+  margin-top: 10px
+  padding-top: 10px
+  hr
+    margin-bottom: 20px
+  ul
+    vertical-align: middle
+    list-style: none
+    padding-left: 0
+
+/* Pages */
+#page
+  margin: 0 auto 53px
+  width: 93.75% 
+  border: 1px solid black
+  border-radius: 15px
+
+// Index
+#index 
+  img
+    box-shadow: 0 3px 10px rgba(0,0,0,0.7)
+  ul
+    list-style: none
+    padding: 0
+    img
+      margin-right: 10px
+    li
+      margin: 5px 0
+
+// Experience
+ul.exp
+  list-style: none
+  padding: 0
+  p
+    padding: 0 1em
+    margin: 0
+  h4
+    margin-bottom: .5em
+
+// Blog
+#blog h3
+  text-align: center
+
+ul.blog
+  max-width: 600px
+  list-style: none
+  margin: 0
+  padding: 0
+  h4
+    margin: 0
+    font-size: 1.5em
+  li
+    margin-bottom: 2em
+
+// Donate
+a.donate
+    background-color: #c9e6ff
+
+a.donate:hover
+    background-color: #9ac3e6
+
+/* BEGIN HOME PAGE SQUARES */
+.table-cell > h1
+  border-radius: 40px
+  background-color: rgba(0, 0, 0, 0.42)
+  padding: 10px
+  -webkit-box-shadow: 0px 0px 18px 11px rgba(0,0,0,0.43)
+  -moz-box-shadow: 0px 0px 18px 11px rgba(0,0,0,0.43)
+  box-shadow: 0px 0px 18px 11px rgba(0,0,0,0.43)
+
+.square
+  float:left
+  position: relative
+  width: 30%
+  padding-bottom : 30% /* = width for a 1:1 aspect ratio */
+  margin:1.66%
+  background-color:#1E1E1E
+  overflow:hidden
+  -webkit-box-shadow: 5px 5px 21px -4px rgba(0,0,0,0.46)
+  -moz-box-shadow: 5px 5px 21px -4px rgba(0,0,0,0.46)
+  box-shadow: 5px 5px 21px -4px rgba(0,0,0,0.46)
+
+.content
+  position:absolute
+  height:100% /* = 100% - 2*5% padding */
+  width:100% /* = 100% - 2*5% padding */
+  padding: 5%
+    
+.table
+  display:table
+  width:100%
+  height:100%
+
+.table-cell
+  display:table-cell
+  vertical-align:middle
+  text-align: center
+
+.bg
+  background-position:center center
+  background-repeat:no-repeat
+  background-size:cover /* you change this to "contain" if you don't want the images to be cropped */
+  color:#fff
+
+.img1
+  background-image: url('https://justinrdunn.github.io/images/xabg.jpg')
+
+.img2
+  background-image: url('https://justinrdunn.github.io/images/cityreach.png')
+  background-size: contain
+  background-color: rgba(30, 30, 30, 0.0)
+
+.img3
+  background-image: url('https://justinrdunn.github.io/images/Renegadegroove.png')
+
+.img4
+  background-image: url('https://justinrdunn.github.io/images/SeniorRecital.jpg')
+
+@media screen and (max-width : 768px)
+  .square
+    width: 46%
+    padding-bottom: 46%
+
+  div#navbar
+    background-color: #222222
+  
+/* END HOME PAGE SQUARES */
